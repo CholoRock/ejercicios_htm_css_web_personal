@@ -1,0 +1,97 @@
+/* Estilos para todos los dispositivos */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+  
+   header {
+    background-color: #f4f4f4;
+    padding: 20px;
+   }
+
+   nav ul {list-style: none;
+           padding: 0;
+}
+nav ul li {
+    display:aline;
+    margin-right: 20px;
+}
+
+   section {
+    margin: 20px;
+   }
+   
+   footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+   }
+
+   /* Estilos del Formulario */
+   form{
+    text-align: left;
+    margin: auto;
+    width: 300px;
+   }
+
+   label{
+    font-weight: bold;
+   }
+
+  input [type="text"],
+  input [type="email"],
+  textarea {
+    width:100;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+/* Estilos de Tabla*/
+table {
+    width: 20%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+th{
+    background-color: #f4f4f4;
+}
+
+
+
+   /* Estilos responsivos */
+   @media (max-width: 600px) {
+    body {
+    font-size: 12px;
+    }
+    header, section, footer {
+    padding: 10px;
+    }
+   }
